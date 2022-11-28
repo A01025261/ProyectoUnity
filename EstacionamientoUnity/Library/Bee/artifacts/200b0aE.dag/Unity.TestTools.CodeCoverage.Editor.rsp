@@ -120,6 +120,8 @@
 -define:NO_COV_EDITORPREF
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"/Users/plasmax_115/Documents/GitHub/ProyectoUnity/EstacionamientoUnity/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"/Users/plasmax_115/Documents/GitHub/ProyectoUnity/EstacionamientoUnity/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"/Volumes/FORC SSD/Programs/2021.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"/Volumes/FORC SSD/Programs/2021.3.12f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
 -r:"/Volumes/FORC SSD/Programs/2021.3.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -331,8 +333,6 @@
 -r:"/Volumes/FORC SSD/Programs/2021.3.12f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"/Volumes/FORC SSD/Programs/2021.3.12f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"/Volumes/FORC SSD/Programs/2021.3.12f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
--r:"/Volumes/FORC SSD/ProyectosUnity/ProyectoEquipo5/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
--r:"/Volumes/FORC SSD/ProyectosUnity/ProyectoEquipo5/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Settings.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll"
