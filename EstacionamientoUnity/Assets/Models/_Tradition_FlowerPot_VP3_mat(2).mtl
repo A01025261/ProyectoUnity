@@ -1,0 +1,66 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 03.11.2017 12:12:03
+
+newmtl _Tradition_FlowerPot_VP3_mat2_mtl_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6863 0.5725 0.3020
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump dcmap_&Tradition_FlowerPot VP3 Table Lamp_bump(2).jpg
+	bump dcmap_&Tradition_FlowerPot VP3 Table Lamp_bump(2).jpg
+
+newmtl _Tradition_FlowerPot_VP3_mat2_mtl_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.9882 0.9882 0.9882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl _Tradition_FlowerPot_VP3_mat2_mtl_3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl _Tradition_FlowerPot_VP3_mat2_mtl_4
+	Ns 10.0000
+	Ni 1.5000
+	d 0.0000
+	Tr 1.0000
+	Tf 0.0000 0.0000 0.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl _Tradition_FlowerPot_VP3_mat2_mtl_5
+	Ns 10.0000
+	Ni 1.5000
+	d 0.3216
+	Tr 0.6784
+	Tf 0.3216 0.3216 0.3216 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.9137 0.9137 0.9137
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump dcmap_&Tradition_FlowerPot VP3 Table Lamp_bump(1).jpg
+	bump dcmap_&Tradition_FlowerPot VP3 Table Lamp_bump(1).jpg
