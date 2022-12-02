@@ -14,7 +14,7 @@ Autores:
 from mesa import Model
 from mesa.time import SimultaneousActivation
 from mesa.space import MultiGrid
-from agent import *
+from agentnew import *
 import json
 
 

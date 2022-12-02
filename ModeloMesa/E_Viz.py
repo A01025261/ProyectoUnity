@@ -1,3 +1,12 @@
+"""
+Autores:
+    Equipo 5
+    Alberto Jashua Rodriguez Villegas 	A01752023
+    Jeovani Hernandez Bastida 			A01749164
+    Maximiliano Benítez Ahumada 		A01752791
+    Maximiliano Carrasco Rojas 		    A01025261
+"""
+
 from agent import *
 from model import RandomModel
 from mesa.visualization.modules import CanvasGrid, BarChartModule
@@ -49,7 +58,7 @@ with open('2022_base.txt') as baseFile:
     width = len(lines[0])-1
     height = len(lines)
 
-model_params = {"N":5}
+model_params = {"N":15}
 
 print(width, height)
 grid = CanvasGrid(agent_portrayal, width, height, 500, 500)

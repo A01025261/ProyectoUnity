@@ -1,12 +1,21 @@
+
+
 # TC2008B. Sistemas Multiagentes y Gráficas Computacionales
 # Python flask server to interact with Unity. Based on the code provided by Sergio Ruiz.
 # Octavio Navarro. October 2021
 
 from flask import Flask, request, jsonify
-from model import *
+from modelnew import *
 from mesa.visualization.modules import CanvasGrid
 from mesa.visualization.ModularVisualization import ModularServer
 
+# Size of the board:
+# ancho = 15
+# alto = 15
+# robots = 5
+# cajas = 20
+# pasos = 5000000
+# grid = CanvasGrid(ancho, alto, 750, 750)
 
 app = Flask("Traffic example")
 

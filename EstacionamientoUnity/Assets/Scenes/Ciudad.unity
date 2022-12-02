@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -153,12 +153,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0542449736cda504ab0d11f60a83df51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layout: {fileID: 4900000, guid: d7e9f9c4234a9b64691be1663f46f44c, type: 3}
+  layout: {fileID: 4900000, guid: af698225601c8456e9f15431ebeb5a79, type: 3}
   roadPrefab: {fileID: 3271392158188296096, guid: afd14d0a9b6f01043bf946a928b98620, type: 3}
   buildingPrefab: {fileID: 5924917093522282424, guid: c375cd770b701c04fafeec5613f7842d, type: 3}
   semaphorePrefab: {fileID: 8736561625827343332, guid: d05ad6952bf9f52459341317bb9a1210, type: 3}
-  EspacioLlenoCamioneta: {fileID: 8269573527321041127, guid: cf68fba11a3886d49b86aa56cd3ba917, type: 3}
-  EspacioLlenoCarro: {fileID: 8928447942713643130, guid: c59d586ac17f3164f9b39e563f223188, type: 3}
+  EspacioLlenoCamioneta: {fileID: 8928447942713643130, guid: c59d586ac17f3164f9b39e563f223188, type: 3}
+  EspacioLlenoCarro: {fileID: 8340103398184228240, guid: 842673e540ce10949952c203d361115d, type: 3}
   EspacioVacio: {fileID: 3872719713404274880, guid: d7b8ca7e81da1e94785676a1d03c383d, type: 3}
   tileSize: 1
 --- !u!4 &173033730
@@ -188,13 +188,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f364aacb6b5ca54e9ddb977c1d5d711, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carro: {fileID: 1176678245056855588, guid: ecd5f5afd2f250c46b9a6b4422690cc5, type: 3}
+  carro: {fileID: 2851747486715509167, guid: 2ec06f044d3806140b3fe8403b45dcbc, type: 3}
   semaforoPrefab: {fileID: 8736561625827343332, guid: d05ad6952bf9f52459341317bb9a1210, type: 3}
   NAgents: 15
   width: 0
   height: 0
   pasos: 0
-  timeToUpdate: 5
+  timeToUpdate: 0.1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

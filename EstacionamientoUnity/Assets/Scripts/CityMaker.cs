@@ -42,7 +42,7 @@ public class CityMaker : MonoBehaviour
         // To draw from the top, find the rows of the file
         // and move down
         // Remove the last enter, and one more to start at 0
-        int y = tiles.Split('\n').Length - 2;
+        int y = tiles.Split('\n').Length - 1;
         Debug.Log(y);
 
         Vector3 position;
@@ -73,23 +73,39 @@ public class CityMaker : MonoBehaviour
                 tile = Instantiate(semaphorePrefab, position, Quaternion.Euler(0, 90, 0));
                 tile.transform.parent = transform;
                 x += 1;
-                // Son los espacios en los cuales el carro puede estacionarse
-            } else if (tiles[i] == 'I') {
+
+                // CAJONES VACÍOS
+
+                //Espacio apuntando hacia abajo.
+            }
+            else if (tiles[i] == 'I') {
                 position = new Vector3(x * tileSize, 0, y * tileSize);
                 tile = Instantiate(EspacioVacio, position, Quaternion.Euler(0, 360, 0));
                 tile.transform.parent = transform;
                 x += 1;
-            }   else if (tiles[i] == 'K') {
+
+                //Espacio apuntando hacia arriba.
+
+            }
+            else if (tiles[i] == 'K') {
                 position = new Vector3(x * tileSize, 0, y * tileSize);
                 tile = Instantiate(EspacioVacio, position, Quaternion.Euler(0, 180, 0));
                 tile.transform.parent = transform;
                 x += 1;
-            }   else if (tiles[i] == 'J') {
+
+                //Espacio apuntando hacia la derecha.
+
+            }
+            else if (tiles[i] == 'J') {
                 position = new Vector3(x * tileSize, 0, y * tileSize);
                 tile = Instantiate(EspacioVacio, position, Quaternion.Euler(0, 270, 0));
                 tile.transform.parent = transform;
                 x += 1;
-            }   else if (tiles[i] == 'L') {
+
+                //Espacio apuntando hacia la izquierda.
+
+            }
+            else if (tiles[i] == 'L') {
                 position = new Vector3(x * tileSize, 0, y * tileSize);
                 tile = Instantiate(EspacioVacio, position, Quaternion.Euler(0, 90, 0));
                 tile.transform.parent = transform;
@@ -115,22 +131,28 @@ public class CityMaker : MonoBehaviour
                 tile = Instantiate(EspacioLlenoCamioneta, position, Quaternion.Euler(0, 90, 0));
                 tile.transform.parent = transform;
                 x += 1;
-                // Son los espacios ocupados por un carro
+
+                // CAJONES OCUPADOS POR CARROS
+
+                //Apuntando hacia abajo.
             } else if (tiles[i] == 'T') {
                 position = new Vector3(x * tileSize, 0, y * tileSize);
                 tile = Instantiate(EspacioLlenoCarro, position, Quaternion.Euler(0, 360, 0));
                 tile.transform.parent = transform;
                 x += 1;
+                //Apuntando hacia arriba.
             }   else if (tiles[i] == 'G') {
                 position = new Vector3(x * tileSize, 0, y * tileSize);
                 tile = Instantiate(EspacioLlenoCarro, position, Quaternion.Euler(0, 180, 0));
                 tile.transform.parent = transform;
                 x += 1;
+                //Apuntando hacia la derecha.
             }   else if (tiles[i] == 'F') {
                 position = new Vector3(x * tileSize, 0, y * tileSize);
                 tile = Instantiate(EspacioLlenoCarro, position, Quaternion.Euler(0, 270, 0));
                 tile.transform.parent = transform;
                 x += 1;
+                //Apuntando hacia la izquierda.
             }   else if (tiles[i] == 'H') {
                 position = new Vector3(x * tileSize, 0, y * tileSize);
                 tile = Instantiate(EspacioLlenoCarro, position, Quaternion.Euler(0, 90, 0));
